@@ -8,8 +8,7 @@ $(document).ready(function () {
 
     $(`#nome-tarefa`).val("");
   });
-
-  $("ul").on("click", "li", function () {
-    $(this).toggleClass("completed");
-  });
+});
+$("ul").on("click", "li", function () {
+  $(this).toggleClass("completed");
 });
